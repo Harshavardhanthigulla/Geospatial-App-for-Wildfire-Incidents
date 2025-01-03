@@ -39,3 +39,7 @@ This Streamlit application fetches wildfire incident data from the California Na
     - Creates an interactive map using Folium.
     - Places markers for each wildfire incident showing the location on the map.
     - Allows users to click on markers to view details about each wildfire (e.g., fire name, location, containment status, size).
+
+## Justification for Framework Choices
+
+I chose Streamlit for its simplicity and speed in building data-driven apps with minimal code. It seamlessly integrates with Python libraries like Folium for mapping and Requests for fetching data. Unlike Flask or Django, Streamlit combines both the backend and frontend, automating server-client communication. This eliminates the need to create custom frontend components or integrate JavaScript frameworks, making the development process faster and less complex. Folium provides an easy way to create interactive maps, and Streamlit handles everything in one tool, making it perfect for this project.
