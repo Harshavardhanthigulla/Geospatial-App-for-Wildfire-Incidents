@@ -1,4 +1,4 @@
-# -Geospatial-Data-App
+# Geospatial-Data-App
 This Streamlit application fetches wildfire incident data from the California Natural Resources Agency and displays it on an interactive map. Users can click on markers to view detailed information about individual wildfire incidents.
 
 ## Tools and Technologies
@@ -15,24 +15,12 @@ This Streamlit application fetches wildfire incident data from the California Na
 
 ## Setup Instructions
 
-1. Clone the repository:
+1. Install the required packages:
     ```
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
-
-2. Create a virtual environment and activate it:
-    ```
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install streamlit folium requests streamlit_folium
     ```
 
-3. Install the required packages:
-    ```
-    pip install streamlit folium requests
-    ```
-
-4. Run the app:
+2. Run the app:
     ```
     streamlit run app.py
     ```
